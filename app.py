@@ -212,7 +212,7 @@ elif st.session_state["page"] == "Model Stats":
         if img_files:
             for img in img_files:
                 img_path = os.path.join(img_folder, img)
-                st.image(img_path, caption=img, use_column_width=True)
+                st.image(img_path, caption=img, use_container_width=True)
         else:
             st.warning("No images found in the 'img' folder.")
     else:
