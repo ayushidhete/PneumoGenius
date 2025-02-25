@@ -1,0 +1,501 @@
+patient_id,age,gender,pneumonia_type,severity,comorbidity,temperature_celsius,respiratory_rate_bpm,oxygen_saturation,cough,dyspnea,fever,fatigue,sputum_production,wbc_count,crp_level,procalcitonin,deceased
+P1000,72,Male,Bacterial,Mild,None,37.8,18,96.8,1,1,1,0,0,9.2,9.9,0.33,0
+P1001,62,Male,Fungal,Moderate,Diabetes,38.6,19,92.4,1,1,1,1,0,8.9,21.8,0.28,0
+P1002,74,Female,Aspiration,Mild,None,37.1,16,95.2,1,1,0,0,0,9.6,10.8,0.14,0
+P1003,87,Male,Fungal,Mild,Diabetes,37.7,14,96.0,1,0,1,1,1,8.5,8.8,0.15,0
+P1004,61,Male,Viral,Severe,Heart Disease,38.3,23,87.8,1,1,1,1,1,15.9,86.8,0.41,0
+P1005,61,Male,Aspiration,Moderate,Hypertension,37.9,18,92.5,0,1,1,1,0,10.2,25.0,0.32,0
+P1006,88,Male,Fungal,Moderate,Hypertension,37.8,19,93.7,1,1,1,1,1,9.3,25.8,0.1,0
+P1007,76,Male,Fungal,Moderate,COPD,37.7,19,94.0,0,0,1,1,1,10.5,23.1,0.23,0
+P1008,57,Female,Aspiration,Mild,Asthma,37.5,18,96.1,1,0,1,0,0,7.0,8.8,0.14,0
+P1009,73,Male,Fungal,Moderate,None,37.8,16,94.5,1,1,1,1,1,11.8,24.1,0.23,0
+P1010,58,Male,Aspiration,Moderate,Asthma,38.1,20,91.9,1,1,1,0,0,8.9,26.7,0.17,0
+P1011,58,Male,Fungal,Moderate,Diabetes,38.0,18,92.8,1,0,1,0,0,11.0,28.4,0.2,0
+P1012,68,Male,Bacterial,Severe,Heart Disease,38.4,26,87.3,1,1,1,1,1,11.9,83.4,5.14,1
+P1013,36,Male,Aspiration,Moderate,COPD,37.7,16,91.1,1,1,0,1,1,10.7,27.2,0.36,0
+P1014,39,Male,Bacterial,Mild,Hypertension,37.3,19,95.9,1,0,1,0,0,10.6,5.7,0.34,0
+P1015,56,Male,Bacterial,Severe,Hypertension,38.7,22,87.9,1,1,1,1,1,14.4,82.6,5.06,0
+P1016,49,Female,Fungal,Moderate,COPD,38.2,16,94.5,1,1,1,0,1,10.1,23.1,0.18,0
+P1017,69,Male,Viral,Moderate,None,37.7,17,93.6,1,1,1,1,0,11.0,22.3,0.18,0
+P1018,51,Female,Bacterial,Severe,Asthma,38.5,21,87.0,1,1,1,1,1,14.0,81.8,5.01,0
+P1019,43,Female,Bacterial,Moderate,Diabetes,38.2,18,94.9,1,0,1,0,1,11.5,25.8,0.58,1
+P1020,86,Male,Bacterial,Mild,Asthma,37.0,17,97.2,0,1,0,1,1,7.6,9.6,0.34,0
+P1021,61,Male,Viral,Mild,Hypertension,37.7,14,96.6,0,0,0,0,0,9.6,10.8,0.09,0
+P1022,66,Female,Viral,Moderate,COPD,37.8,17,92.8,1,0,1,1,1,8.3,26.4,0.25,0
+P1023,43,Female,Bacterial,Mild,Hypertension,37.7,20,95.0,0,0,1,1,0,8.4,10.5,0.32,0
+P1024,56,Female,Viral,Severe,Heart Disease,38.3,25,87.6,1,1,1,1,1,13.5,86.3,0.36,0
+P1025,66,Male,Viral,Moderate,Hypertension,37.5,18,94.1,1,1,0,1,0,11.6,24.9,0.19,0
+P1026,47,Male,Viral,Severe,Diabetes,38.0,22,89.9,1,1,1,1,1,14.0,82.6,0.48,0
+P1027,70,Female,Aspiration,Mild,None,37.5,16,97.5,1,0,1,1,1,7.6,12.1,0.19,0
+P1028,55,Male,Bacterial,Moderate,None,38.1,19,92.5,0,0,1,1,1,10.0,23.8,0.6,0
+P1029,60,Male,Viral,Severe,Heart Disease,38.2,19,86.9,1,1,1,1,1,14.2,83.1,0.39,1
+P1030,55,Female,Aspiration,Mild,Diabetes,37.7,15,96.1,1,1,0,0,0,8.9,9.6,0.15,0
+P1031,92,Male,Fungal,Moderate,COPD,37.5,14,91.2,1,0,1,1,1,10.4,23.2,0.17,0
+P1032,64,Female,Fungal,Critical,Asthma,39.0,28,78.3,1,1,1,1,0,18.5,204.2,0.99,1
+P1033,49,Female,Viral,Mild,COPD,37.1,17,95.9,0,0,0,1,1,9.7,10.7,0.25,0
+P1034,77,Female,Bacterial,Mild,Asthma,37.3,15,95.5,1,1,1,1,0,8.5,10.7,0.31,0
+P1035,46,Male,Viral,Critical,None,39.0,31,76.4,1,1,1,1,1,18.9,203.2,1.12,0
+P1036,68,Female,Fungal,Critical,Hypertension,38.7,25,78.5,1,1,1,1,1,21.2,204.0,1.1,0
+P1037,35,Male,Bacterial,Severe,Hypertension,38.4,19,87.5,1,1,1,1,0,12.6,87.1,5.06,0
+P1038,45,Female,Bacterial,Mild,Heart Disease,37.8,16,94.8,1,0,1,1,1,7.1,11.0,0.29,0
+P1039,67,Male,Fungal,Critical,COPD,38.8,30,75.1,1,1,1,1,1,19.8,209.2,1.02,0
+P1040,76,Female,Aspiration,Moderate,Diabetes,38.3,21,93.0,1,1,1,0,1,10.3,27.4,0.31,1
+P1041,67,Female,Aspiration,Mild,Asthma,37.2,15,97.8,1,1,1,1,0,8.7,12.3,0.09,0
+P1042,63,Male,Viral,Severe,Hypertension,38.7,24,89.7,1,1,0,1,1,13.2,82.2,0.35,0
+P1043,60,Male,Bacterial,Critical,Heart Disease,39.4,27,77.5,1,1,1,1,1,18.7,206.5,20.08,0
+P1044,42,Male,Viral,Mild,COPD,36.8,15,95.4,1,1,1,1,1,10.6,9.9,0.21,0
+P1045,54,Male,Bacterial,Mild,Diabetes,37.3,17,96.5,1,0,1,0,1,9.8,8.9,0.3,0
+P1046,58,Female,Fungal,Critical,None,39.2,29,77.0,1,1,1,1,1,19.9,205.3,1.04,0
+P1047,80,Male,Bacterial,Critical,Diabetes,38.9,24,78.3,1,1,1,1,1,17.6,206.9,20.16,1
+P1048,70,Male,Bacterial,Critical,None,39.1,30,78.8,1,1,1,1,1,17.8,206.0,20.14,1
+P1049,38,Male,Fungal,Mild,COPD,37.3,18,97.2,1,1,1,1,1,6.2,8.2,0.18,0
+P1050,69,Female,Aspiration,Critical,Diabetes,39.0,26,77.9,1,1,1,1,1,18.2,206.5,1.14,1
+P1051,59,Female,Fungal,Critical,Heart Disease,39.0,28,77.8,1,1,1,1,1,20.0,203.7,1.22,0
+P1052,54,Female,Bacterial,Mild,COPD,37.9,16,95.1,1,1,1,1,1,9.5,10.4,0.41,0
+P1053,74,Female,Fungal,Mild,None,37.6,16,95.2,1,0,1,1,0,8.8,9.4,0.12,0
+P1054,80,Male,Bacterial,Severe,Heart Disease,38.6,20,87.8,1,0,1,1,0,14.0,84.6,5.18,0
+P1055,78,Female,Aspiration,Moderate,Hypertension,37.9,16,93.4,1,1,1,1,1,10.3,26.5,0.22,0
+P1056,52,Female,Aspiration,Mild,Heart Disease,37.4,15,96.9,1,1,1,1,0,9.2,7.9,0.17,0
+P1057,60,Male,Bacterial,Moderate,Hypertension,37.9,20,92.2,1,1,1,1,0,11.8,28.9,0.52,0
+P1058,69,Female,Aspiration,Severe,Heart Disease,38.6,23,89.5,1,1,1,0,0,12.4,81.4,0.39,0
+P1059,79,Male,Fungal,Severe,None,38.4,21,87.7,1,1,1,1,1,14.3,83.8,0.36,0
+P1060,57,Male,Aspiration,Critical,Asthma,39.1,29,78.0,1,1,1,1,0,19.9,205.7,1.14,0
+P1061,62,Male,Viral,Severe,Asthma,39.1,16,87.3,1,1,0,1,1,13.6,86.2,0.45,0
+P1062,48,Male,Aspiration,Critical,Hypertension,39.3,30,75.6,1,1,1,1,1,19.7,204.8,1.0,0
+P1063,47,Female,Viral,Critical,Hypertension,38.9,24,78.9,1,1,1,1,1,21.8,204.9,1.1,0
+P1064,77,Female,Fungal,Mild,Diabetes,37.9,15,96.7,1,0,1,1,1,8.9,10.8,0.21,0
+P1065,85,Female,Aspiration,Mild,Heart Disease,37.4,13,95.7,1,1,0,1,1,9.4,9.5,0.14,0
+P1066,63,Male,Aspiration,Moderate,Heart Disease,37.4,15,93.1,1,1,1,1,1,10.3,27.8,0.24,1
+P1067,80,Female,Aspiration,Critical,Heart Disease,38.7,30,78.5,1,1,1,1,1,19.2,206.7,1.12,0
+P1068,70,Male,Fungal,Critical,Heart Disease,38.4,27,76.4,1,1,1,1,1,19.5,206.7,1.12,0
+P1069,55,Male,Fungal,Moderate,Diabetes,37.9,18,92.5,1,1,0,1,0,11.2,23.1,0.19,0
+P1070,70,Male,Viral,Critical,Hypertension,39.0,27,78.8,1,1,1,1,1,18.0,204.8,1.04,0
+P1071,88,Female,Bacterial,Severe,Asthma,39.0,22,86.7,1,1,1,1,0,14.2,84.4,5.04,0
+P1072,64,Female,Fungal,Critical,Diabetes,39.1,28,78.3,1,1,1,1,1,20.5,203.0,1.14,0
+P1073,88,Female,Aspiration,Critical,None,38.9,25,76.6,1,1,1,1,1,19.4,205.7,1.1,0
+P1074,25,Male,Viral,Critical,Diabetes,39.2,29,78.5,1,1,1,1,1,20.0,203.9,1.09,0
+P1075,77,Male,Aspiration,Mild,Diabetes,36.8,15,96.0,0,0,0,0,0,8.8,11.3,0.13,0
+P1076,66,Female,Aspiration,Severe,Diabetes,38.6,18,86.4,1,1,1,1,0,14.7,82.9,0.38,0
+P1077,60,Male,Fungal,Critical,COPD,39.2,27,79.2,1,1,1,1,1,19.3,208.4,1.15,0
+P1078,66,Female,Bacterial,Severe,None,38.1,25,87.3,1,1,1,1,1,13.0,83.2,5.08,0
+P1079,35,Female,Aspiration,Severe,Hypertension,38.8,23,87.2,1,1,1,0,1,14.3,85.4,0.33,0
+P1080,61,Female,Fungal,Severe,Asthma,38.6,21,88.2,1,0,1,1,1,13.0,86.6,0.44,0
+P1081,70,Male,Viral,Moderate,Asthma,37.9,17,94.1,1,0,1,1,1,10.4,23.9,0.19,0
+P1082,87,Female,Aspiration,Critical,Hypertension,39.2,27,77.0,1,1,1,1,1,19.2,206.7,1.1,0
+P1083,57,Male,Viral,Mild,COPD,38.2,20,96.1,1,0,1,1,1,9.3,7.5,0.23,0
+P1084,52,Male,Fungal,Mild,Asthma,37.6,16,96.4,1,0,1,1,0,7.8,12.9,0.15,0
+P1085,57,Female,Fungal,Mild,Diabetes,37.6,16,96.7,1,0,1,1,0,10.1,10.0,0.16,0
+P1086,78,Female,Fungal,Mild,Asthma,37.4,18,96.2,1,1,1,1,1,9.6,8.8,0.09,0
+P1087,69,Female,Fungal,Critical,None,38.7,28,77.6,1,1,1,1,0,18.3,204.4,1.09,1
+P1088,57,Female,Fungal,Mild,None,37.7,15,95.2,0,0,0,0,1,7.5,11.6,0.18,0
+P1089,72,Male,Bacterial,Severe,Hypertension,38.2,21,88.1,1,1,1,1,1,13.9,83.8,5.02,0
+P1090,66,Male,Viral,Moderate,COPD,38.0,17,91.9,0,1,1,1,0,10.6,23.5,0.21,0
+P1091,79,Female,Bacterial,Mild,Heart Disease,37.4,15,93.1,1,1,1,1,0,9.1,9.6,0.31,0
+P1092,54,Male,Viral,Severe,Heart Disease,38.6,23,88.4,1,1,1,1,0,13.6,82.6,0.4,0
+P1093,60,Male,Aspiration,Mild,COPD,37.6,16,96.9,1,0,0,1,1,7.0,13.6,0.2,0
+P1094,59,Male,Aspiration,Critical,Asthma,39.3,29,75.6,1,1,1,1,1,18.6,203.9,1.12,0
+P1095,43,Male,Viral,Severe,COPD,38.3,21,87.0,1,1,1,1,1,13.7,86.7,0.47,1
+P1096,69,Male,Aspiration,Critical,COPD,38.9,28,78.6,1,1,1,1,1,19.6,205.4,1.05,0
+P1097,68,Female,Aspiration,Mild,Asthma,37.2,12,98.1,1,1,1,1,0,8.3,8.0,0.16,0
+P1098,65,Male,Aspiration,Severe,None,38.4,23,88.0,0,1,1,1,1,15.7,85.0,0.4,0
+P1099,61,Female,Bacterial,Severe,Diabetes,38.6,22,87.3,1,1,1,1,1,12.1,86.6,5.05,0
+P1100,43,Female,Bacterial,Severe,Hypertension,38.7,23,87.8,1,1,1,1,0,15.3,84.6,5.15,0
+P1101,58,Female,Fungal,Mild,Heart Disease,37.2,12,97.4,1,0,0,0,1,8.8,12.4,0.27,0
+P1102,59,Female,Viral,Moderate,None,38.3,22,92.4,1,1,1,1,1,11.9,27.0,0.2,0
+P1103,52,Male,Aspiration,Moderate,COPD,38.4,17,92.2,1,1,1,1,0,11.1,26.8,0.23,0
+P1104,62,Male,Viral,Critical,COPD,39.1,30,77.5,1,1,1,1,1,20.1,204.1,1.1,1
+P1105,71,Female,Fungal,Moderate,Heart Disease,38.6,15,92.0,1,1,1,1,0,10.6,22.8,0.16,0
+P1106,93,Female,Fungal,Mild,Asthma,37.3,17,96.1,1,0,1,1,1,7.9,8.8,0.06,0
+P1107,67,Male,Aspiration,Severe,Hypertension,38.1,19,89.6,1,1,1,1,1,15.4,85.4,0.36,0
+P1108,68,Female,Fungal,Severe,Diabetes,38.0,20,88.3,1,0,1,1,0,13.9,86.1,0.33,0
+P1109,63,Female,Aspiration,Mild,Asthma,37.9,19,95.7,0,1,1,0,1,9.2,5.7,0.24,0
+P1110,36,Male,Fungal,Severe,Heart Disease,38.7,21,87.7,1,1,1,0,1,15.2,85.0,0.39,0
+P1111,64,Female,Fungal,Moderate,Asthma,38.0,18,91.4,1,1,0,1,0,10.0,25.3,0.18,0
+P1112,65,Male,Aspiration,Critical,Diabetes,39.1,29,78.9,1,1,1,1,1,19.6,204.4,1.14,0
+P1113,95,Female,Fungal,Mild,Diabetes,37.2,16,95.9,0,1,1,1,0,8.4,12.6,0.09,0
+P1114,62,Male,Fungal,Severe,COPD,39.2,22,87.8,1,1,1,1,1,13.9,85.8,0.36,0
+P1115,69,Male,Fungal,Mild,Asthma,37.5,16,99.2,1,0,1,1,0,9.1,12.6,0.15,0
+P1116,64,Female,Viral,Moderate,None,38.0,22,93.3,1,1,1,1,0,9.5,24.6,0.25,0
+P1117,47,Male,Bacterial,Severe,None,38.7,21,87.2,1,1,1,1,1,13.2,86.9,5.13,0
+P1118,82,Male,Viral,Severe,Asthma,38.6,22,87.6,1,0,1,1,1,15.4,88.3,0.41,0
+P1119,76,Female,Fungal,Severe,Diabetes,38.6,24,89.1,1,1,1,1,0,14.9,87.6,0.4,0
+P1120,76,Male,Bacterial,Severe,Hypertension,38.3,24,88.1,1,1,1,1,1,13.9,82.8,5.12,0
+P1121,51,Male,Viral,Mild,Diabetes,37.6,18,94.6,1,0,1,1,0,9.2,9.5,0.16,0
+P1122,86,Female,Viral,Moderate,Diabetes,38.6,19,93.9,1,1,1,1,1,10.7,24.3,0.15,0
+P1123,43,Female,Viral,Moderate,Hypertension,38.4,15,92.3,1,1,1,0,0,12.4,26.0,0.2,0
+P1124,73,Male,Aspiration,Critical,Heart Disease,39.5,31,79.9,1,1,1,1,1,18.8,206.4,1.05,0
+P1125,95,Male,Fungal,Mild,Diabetes,37.3,13,97.1,1,1,1,1,1,9.2,8.3,0.15,0
+P1126,50,Female,Fungal,Moderate,Hypertension,37.7,18,92.6,1,1,1,0,1,12.1,25.1,0.18,0
+P1127,56,Female,Bacterial,Mild,Asthma,37.5,14,97.3,1,1,1,0,0,8.2,6.0,0.43,0
+P1128,66,Male,Viral,Mild,Hypertension,37.5,15,96.1,1,0,1,1,1,10.6,12.9,0.15,0
+P1129,57,Male,Fungal,Moderate,None,38.3,18,93.9,1,0,1,0,0,9.5,24.0,0.13,0
+P1130,41,Male,Viral,Critical,Hypertension,38.5,28,78.5,1,1,1,1,1,20.6,205.1,1.09,1
+P1131,66,Male,Fungal,Critical,Diabetes,39.5,28,77.2,1,1,1,1,1,18.6,204.4,1.13,0
+P1132,49,Male,Viral,Critical,Heart Disease,39.0,31,77.4,1,1,1,1,1,18.8,207.3,1.18,0
+P1133,72,Female,Fungal,Severe,Asthma,38.4,22,89.0,1,1,1,1,1,12.1,79.3,0.37,1
+P1134,51,Male,Bacterial,Moderate,Hypertension,37.7,17,92.7,1,1,1,1,0,10.5,25.0,0.52,0
+P1135,88,Male,Viral,Severe,Diabetes,38.0,23,87.6,1,1,1,1,1,13.0,84.8,0.44,0
+P1136,53,Male,Fungal,Severe,Heart Disease,38.7,24,87.0,1,1,1,1,1,13.4,84.1,0.33,0
+P1137,60,Female,Bacterial,Severe,Hypertension,38.5,19,88.4,1,1,1,1,1,13.9,88.5,5.08,1
+P1138,77,Male,Bacterial,Mild,Asthma,37.1,17,98.1,1,1,0,1,1,10.0,8.2,0.29,0
+P1139,46,Female,Fungal,Mild,Asthma,37.1,17,94.9,1,1,1,1,1,9.2,11.5,0.15,0
+P1140,68,Female,Viral,Moderate,None,37.9,17,93.0,1,0,1,1,1,11.3,25.7,0.23,1
+P1141,84,Male,Aspiration,Moderate,Asthma,38.5,20,94.4,1,0,1,1,0,9.9,27.5,0.17,0
+P1142,40,Male,Bacterial,Mild,Heart Disease,37.4,15,95.9,1,1,0,0,1,8.1,8.7,0.29,0
+P1143,67,Female,Bacterial,Mild,Diabetes,37.0,16,96.5,1,0,1,0,1,10.8,8.5,0.3,0
+P1144,68,Female,Fungal,Severe,Asthma,38.4,21,86.9,1,0,1,1,1,13.3,87.2,0.41,0
+P1145,76,Female,Aspiration,Critical,Asthma,38.9,28,78.4,1,1,1,1,1,20.7,205.9,1.1,1
+P1146,46,Female,Aspiration,Critical,Diabetes,38.2,25,77.8,1,1,1,1,1,18.8,201.9,1.12,1
+P1147,45,Female,Aspiration,Critical,Diabetes,39.0,25,79.0,1,1,1,1,1,19.0,203.9,1.14,1
+P1148,72,Male,Fungal,Critical,Heart Disease,38.9,31,79.2,1,1,0,1,1,20.1,205.8,1.12,0
+P1149,69,Male,Viral,Critical,Asthma,39.2,26,80.6,1,1,1,1,1,20.3,206.7,1.12,0
+P1150,68,Male,Bacterial,Severe,Heart Disease,39.1,20,88.6,1,1,0,1,1,13.9,83.6,5.02,0
+P1151,70,Male,Fungal,Moderate,Asthma,38.3,13,93.3,1,1,1,1,0,10.6,19.2,0.2,0
+P1152,54,Female,Aspiration,Mild,Hypertension,37.4,14,96.2,1,0,0,0,1,8.9,11.0,0.17,0
+P1153,68,Male,Bacterial,Severe,Asthma,38.2,19,87.6,0,1,1,1,1,14.3,82.6,5.14,0
+P1154,69,Male,Bacterial,Critical,None,39.8,31,78.3,1,1,1,1,1,19.9,201.0,20.07,0
+P1155,54,Male,Aspiration,Mild,None,37.5,18,95.7,1,0,0,0,1,9.0,4.3,0.12,0
+P1156,92,Male,Aspiration,Severe,None,38.5,20,88.2,1,1,0,1,1,14.6,86.6,0.37,0
+P1157,72,Male,Bacterial,Critical,None,39.0,32,79.3,1,1,1,1,1,20.6,205.3,20.13,1
+P1158,47,Male,Bacterial,Severe,Heart Disease,38.6,23,87.0,1,1,1,1,1,14.4,84.5,5.15,0
+P1159,74,Male,Viral,Mild,Asthma,37.5,15,97.1,1,0,1,1,1,9.3,12.8,0.13,0
+P1160,50,Male,Viral,Moderate,Hypertension,37.8,13,94.3,1,1,1,1,0,9.5,26.3,0.25,0
+P1161,76,Male,Fungal,Critical,Heart Disease,38.8,32,77.9,1,1,0,1,1,16.4,208.2,1.11,1
+P1162,82,Female,Bacterial,Mild,Diabetes,37.5,13,93.9,1,1,1,1,1,9.4,7.2,0.29,0
+P1163,52,Male,Viral,Mild,Asthma,37.3,12,95.4,1,0,0,1,1,8.9,9.9,0.14,0
+P1164,79,Male,Bacterial,Moderate,COPD,37.8,20,94.3,1,1,1,1,1,10.5,21.8,0.64,0
+P1165,71,Female,Aspiration,Severe,Asthma,38.5,26,88.0,1,1,1,1,1,14.2,84.5,0.42,0
+P1166,77,Female,Viral,Moderate,Heart Disease,37.9,20,92.0,1,1,0,1,1,10.9,24.5,0.31,0
+P1167,93,Male,Aspiration,Moderate,None,38.5,19,92.5,1,1,1,0,1,12.1,26.3,0.16,0
+P1168,61,Male,Aspiration,Severe,COPD,37.7,23,88.8,1,1,1,1,1,14.1,85.1,0.43,0
+P1169,53,Female,Aspiration,Severe,Heart Disease,38.8,23,88.5,0,1,1,1,0,13.3,86.2,0.37,0
+P1170,51,Male,Fungal,Severe,Asthma,38.9,23,87.8,1,1,1,1,1,15.0,86.4,0.36,0
+P1171,52,Female,Aspiration,Mild,Hypertension,36.9,16,95.6,1,0,1,1,0,8.8,14.3,0.15,0
+P1172,63,Female,Fungal,Mild,Heart Disease,37.4,16,95.6,0,0,1,1,1,9.5,9.4,0.16,0
+P1173,70,Male,Bacterial,Critical,Hypertension,38.9,27,77.1,1,1,1,1,1,18.5,203.1,20.25,1
+P1174,69,Male,Bacterial,Critical,COPD,38.6,26,79.6,1,1,1,1,1,18.4,205.5,20.09,0
+P1175,77,Male,Viral,Moderate,Diabetes,37.8,17,92.7,1,1,1,0,1,11.1,23.4,0.14,0
+P1176,65,Female,Viral,Moderate,Heart Disease,37.7,14,94.2,1,1,1,1,1,11.0,28.0,0.21,0
+P1177,86,Female,Fungal,Critical,COPD,39.5,27,79.5,1,1,1,1,1,19.5,204.4,1.0,0
+P1178,61,Female,Bacterial,Moderate,Hypertension,38.3,16,94.0,1,1,1,1,0,10.7,23.9,0.6,0
+P1179,95,Female,Viral,Severe,COPD,38.9,19,87.6,1,1,1,1,0,12.2,84.1,0.4,1
+P1180,74,Female,Viral,Mild,None,37.7,16,96.4,1,1,1,1,0,8.6,11.4,0.19,0
+P1181,52,Male,Viral,Critical,Heart Disease,38.7,30,78.0,1,1,1,1,1,19.8,204.7,1.15,1
+P1182,48,Male,Bacterial,Mild,None,37.3,17,95.1,1,0,1,0,1,8.7,8.7,0.27,0
+P1183,72,Male,Viral,Critical,Diabetes,39.1,24,78.3,1,1,0,1,1,18.8,208.3,1.09,1
+P1184,61,Female,Bacterial,Mild,COPD,37.1,14,94.8,1,1,1,1,0,10.0,8.3,0.26,0
+P1185,75,Female,Aspiration,Critical,COPD,39.2,29,79.2,1,1,1,1,0,18.3,205.1,1.04,0
+P1186,72,Male,Aspiration,Mild,COPD,37.4,14,95.5,0,1,1,1,1,7.5,11.3,0.17,0
+P1187,63,Male,Aspiration,Severe,COPD,38.4,21,88.2,1,1,1,1,1,13.8,81.7,0.34,0
+P1188,52,Male,Fungal,Critical,Diabetes,39.2,29,78.3,0,1,1,1,1,18.5,206.0,1.08,0
+P1189,42,Male,Bacterial,Critical,Hypertension,39.1,26,77.7,1,1,1,1,1,18.0,202.9,20.05,0
+P1190,58,Female,Viral,Critical,Asthma,38.9,28,78.6,1,1,1,1,1,18.8,206.6,1.13,0
+P1191,77,Male,Fungal,Severe,Diabetes,38.8,19,87.5,1,1,1,1,1,14.5,83.1,0.49,1
+P1192,68,Female,Fungal,Mild,Hypertension,37.2,14,96.9,1,0,0,1,0,9.0,11.4,0.08,0
+P1193,46,Male,Aspiration,Critical,Heart Disease,39.2,28,76.7,1,1,1,1,1,19.3,207.2,1.01,0
+P1194,67,Female,Bacterial,Mild,Hypertension,37.7,12,96.1,1,0,0,0,1,10.8,11.7,0.29,0
+P1195,70,Female,Viral,Severe,Heart Disease,38.4,22,89.9,1,1,1,1,0,13.7,85.5,0.4,0
+P1196,51,Male,Fungal,Moderate,Hypertension,38.1,17,92.0,1,0,1,1,1,11.3,24.5,0.21,0
+P1197,67,Male,Viral,Critical,COPD,38.6,29,77.3,1,1,1,1,1,18.5,203.8,1.08,0
+P1198,65,Female,Aspiration,Severe,Diabetes,38.8,22,88.5,1,1,1,1,1,13.2,87.9,0.39,0
+P1199,47,Male,Bacterial,Mild,Hypertension,37.4,18,96.2,1,0,1,1,1,8.4,8.6,0.32,0
+P1200,70,Male,Viral,Critical,Asthma,38.8,28,78.4,1,1,1,1,1,18.5,202.9,1.15,0
+P1201,73,Male,Viral,Mild,Asthma,37.8,15,96.5,1,0,0,0,0,9.4,11.3,0.05,0
+P1202,81,Male,Fungal,Moderate,None,37.8,18,93.6,1,1,0,1,1,13.3,23.4,0.18,0
+P1203,80,Male,Viral,Critical,Hypertension,38.6,29,79.1,1,1,1,1,1,18.3,203.1,1.11,0
+P1204,44,Male,Bacterial,Critical,Diabetes,38.5,28,78.4,1,1,1,1,1,18.6,202.1,20.05,0
+P1205,50,Female,Bacterial,Mild,COPD,37.7,16,95.8,1,1,0,1,1,8.9,9.0,0.39,0
+P1206,72,Female,Viral,Critical,None,38.6,26,78.7,1,1,1,1,1,19.4,204.8,1.07,0
+P1207,72,Female,Fungal,Severe,Hypertension,39.0,20,89.9,1,1,1,1,0,14.3,85.5,0.4,0
+P1208,72,Male,Fungal,Severe,COPD,37.9,19,87.9,1,1,1,0,1,15.3,86.9,0.43,0
+P1209,95,Female,Aspiration,Moderate,Diabetes,38.5,21,92.0,1,1,1,1,0,8.6,26.1,0.17,0
+P1210,73,Male,Bacterial,Severe,Diabetes,38.6,19,89.1,1,1,1,1,1,11.6,84.6,5.01,0
+P1211,82,Male,Aspiration,Moderate,None,38.0,16,92.9,1,0,0,1,0,10.5,24.6,0.18,0
+P1212,79,Female,Fungal,Mild,None,37.3,14,93.8,1,1,1,1,1,10.1,11.0,0.2,0
+P1213,74,Male,Aspiration,Mild,Hypertension,37.6,17,96.8,1,0,0,0,0,7.4,12.5,0.13,0
+P1214,60,Female,Fungal,Moderate,COPD,38.0,17,92.5,1,1,1,1,0,8.0,25.3,0.16,0
+P1215,76,Female,Aspiration,Severe,Asthma,38.8,24,87.9,1,1,1,1,1,14.6,84.1,0.45,0
+P1216,53,Female,Aspiration,Severe,COPD,38.5,20,88.3,1,1,1,1,1,14.2,83.0,0.38,0
+P1217,61,Female,Bacterial,Moderate,Diabetes,38.0,18,93.2,0,1,1,1,0,9.9,22.1,0.57,0
+P1218,57,Female,Bacterial,Moderate,Diabetes,37.9,16,93.7,1,1,1,1,0,10.0,26.3,0.61,0
+P1219,66,Female,Aspiration,Mild,Hypertension,37.5,20,95.6,1,0,1,1,1,8.0,11.2,0.19,0
+P1220,95,Male,Fungal,Moderate,Asthma,38.1,15,93.5,1,1,1,0,0,11.1,26.2,0.32,0
+P1221,36,Male,Fungal,Severe,Heart Disease,38.0,22,87.7,1,1,1,0,1,13.4,84.7,0.44,0
+P1222,75,Female,Bacterial,Moderate,Hypertension,37.6,19,93.7,1,1,1,1,1,11.5,27.8,0.66,0
+P1223,40,Male,Bacterial,Moderate,Diabetes,38.2,18,93.6,1,1,0,0,1,8.1,24.0,0.57,0
+P1224,57,Male,Viral,Moderate,Diabetes,38.1,17,92.1,1,0,1,1,1,10.1,26.9,0.15,0
+P1225,81,Male,Bacterial,Mild,COPD,37.4,15,97.1,1,0,0,1,0,7.9,9.9,0.3,0
+P1226,65,Female,Fungal,Moderate,Asthma,38.0,18,92.5,1,0,1,1,1,10.7,23.8,0.21,0
+P1227,48,Male,Bacterial,Critical,COPD,39.1,27,78.8,1,1,1,1,1,18.5,206.2,20.05,0
+P1228,54,Male,Viral,Critical,COPD,38.8,29,78.4,1,1,1,1,1,19.8,205.8,1.09,0
+P1229,75,Female,Aspiration,Critical,Hypertension,38.8,32,79.8,1,1,1,1,1,17.1,205.7,1.12,0
+P1230,54,Male,Aspiration,Severe,COPD,38.6,20,87.8,1,1,1,1,1,14.0,85.2,0.42,0
+P1231,68,Male,Fungal,Severe,None,38.2,19,87.7,1,1,1,1,1,14.6,84.9,0.43,0
+P1232,65,Male,Viral,Moderate,None,38.1,17,93.0,1,1,1,1,1,12.9,29.8,0.21,0
+P1233,55,Male,Aspiration,Critical,COPD,38.5,33,77.7,1,1,1,1,1,18.5,207.4,1.07,1
+P1234,95,Male,Aspiration,Mild,Asthma,37.8,14,96.8,0,0,1,1,1,9.3,11.4,0.12,0
+P1235,74,Male,Bacterial,Critical,COPD,39.1,31,76.4,1,1,1,1,1,17.2,205.2,20.04,0
+P1236,34,Male,Aspiration,Critical,Diabetes,39.1,31,76.9,1,1,1,1,1,16.6,207.0,1.19,1
+P1237,67,Female,Fungal,Severe,Diabetes,38.8,20,86.9,1,1,1,1,1,14.8,86.0,0.4,0
+P1238,55,Male,Aspiration,Severe,Asthma,39.0,23,89.0,0,1,1,1,0,14.0,85.1,0.39,0
+P1239,77,Male,Fungal,Mild,Hypertension,37.8,19,97.7,1,0,1,1,0,10.2,9.4,0.1,0
+P1240,53,Male,Fungal,Severe,None,37.9,21,87.9,0,0,1,1,1,12.6,84.8,0.55,0
+P1241,63,Male,Bacterial,Mild,None,37.1,15,95.8,0,1,0,0,1,9.5,3.7,0.25,0
+P1242,72,Female,Viral,Severe,Hypertension,38.3,20,88.1,1,1,1,1,1,15.9,85.4,0.38,0
+P1243,77,Female,Fungal,Critical,COPD,39.0,25,79.2,0,1,1,1,0,19.4,204.0,1.12,1
+P1244,46,Female,Aspiration,Critical,Asthma,39.2,26,77.1,1,1,1,1,1,19.3,208.2,1.13,0
+P1245,59,Male,Aspiration,Mild,Heart Disease,37.3,13,96.2,1,0,0,0,1,9.0,10.0,0.2,0
+P1246,57,Female,Fungal,Mild,Heart Disease,37.6,16,97.0,1,0,1,1,1,7.4,7.6,0.24,0
+P1247,55,Male,Aspiration,Severe,COPD,38.3,20,88.5,1,1,1,1,1,15.4,84.9,0.43,0
+P1248,91,Female,Bacterial,Severe,Hypertension,38.3,22,88.2,1,1,1,1,1,13.4,82.9,5.05,0
+P1249,71,Female,Aspiration,Mild,Asthma,37.1,12,97.0,1,1,1,1,0,9.5,10.9,0.14,0
+P1250,46,Male,Bacterial,Mild,None,37.2,16,93.3,0,1,1,1,1,7.4,10.6,0.32,0
+P1251,78,Female,Fungal,Critical,None,38.6,29,78.7,1,1,1,1,1,17.8,206.9,1.2,1
+P1252,95,Female,Fungal,Critical,COPD,38.7,24,77.3,1,1,1,1,1,20.4,203.4,1.03,1
+P1253,80,Female,Fungal,Mild,Diabetes,37.8,16,94.2,0,0,0,0,1,8.7,10.1,0.21,0
+P1254,42,Male,Bacterial,Critical,Hypertension,38.7,30,78.5,1,1,1,1,0,20.5,202.3,20.11,1
+P1255,57,Male,Aspiration,Moderate,Heart Disease,38.8,15,94.4,0,1,0,1,1,10.9,26.4,0.24,0
+P1256,84,Female,Bacterial,Severe,Hypertension,38.6,25,87.9,1,1,1,1,0,12.2,86.0,5.09,0
+P1257,54,Male,Aspiration,Critical,COPD,39.1,28,79.0,1,1,0,1,1,19.9,206.0,1.06,0
+P1258,71,Male,Aspiration,Moderate,Hypertension,37.7,16,94.6,1,1,1,1,1,10.4,25.0,0.24,0
+P1259,76,Male,Bacterial,Mild,None,37.7,15,97.3,1,1,1,1,0,9.7,10.8,0.33,0
+P1260,51,Female,Viral,Critical,COPD,38.8,29,79.6,1,1,1,1,1,19.0,208.2,1.15,0
+P1261,64,Male,Fungal,Mild,None,37.5,16,96.7,1,0,1,0,0,7.5,9.4,0.15,0
+P1262,18,Female,Aspiration,Severe,Asthma,39.3,23,88.1,1,1,1,1,1,14.2,85.3,0.37,1
+P1263,49,Male,Aspiration,Mild,Asthma,37.5,14,94.4,1,0,1,0,0,11.2,7.8,0.07,0
+P1264,61,Male,Bacterial,Moderate,Diabetes,38.3,18,92.8,1,0,1,1,1,11.5,23.3,0.64,0
+P1265,46,Female,Viral,Mild,Hypertension,37.3,13,95.2,1,1,0,0,1,8.9,10.2,0.17,0
+P1266,89,Female,Fungal,Moderate,Asthma,38.0,17,95.2,1,1,1,0,0,12.1,27.2,0.15,0
+P1267,43,Male,Viral,Critical,Hypertension,39.5,26,77.8,1,1,1,1,0,19.2,204.5,1.07,1
+P1268,58,Female,Fungal,Critical,None,38.8,26,78.1,1,1,1,1,0,19.2,204.5,1.08,0
+P1269,66,Female,Aspiration,Moderate,COPD,38.5,20,93.6,1,1,0,1,0,9.9,24.2,0.13,0
+P1270,86,Male,Aspiration,Severe,Asthma,38.7,24,88.0,1,1,1,1,0,14.2,83.9,0.36,1
+P1271,43,Female,Bacterial,Severe,COPD,38.3,23,89.7,1,1,1,1,1,15.0,85.6,5.04,0
+P1272,82,Male,Bacterial,Severe,Asthma,38.7,19,87.4,1,1,1,1,1,13.2,82.0,5.08,1
+P1273,65,Male,Viral,Critical,Hypertension,39.3,27,78.2,1,1,1,1,1,20.4,207.6,1.06,0
+P1274,50,Female,Viral,Critical,Asthma,39.2,30,77.3,1,1,1,1,1,18.9,203.7,1.02,0
+P1275,71,Male,Fungal,Severe,Heart Disease,38.0,22,86.7,1,1,1,1,1,13.1,86.4,0.5,0
+P1276,67,Male,Bacterial,Mild,Asthma,37.3,20,95.4,1,0,1,0,1,10.0,7.5,0.36,0
+P1277,55,Male,Aspiration,Severe,None,38.4,22,88.0,1,1,1,0,1,13.7,86.3,0.36,0
+P1278,66,Female,Bacterial,Mild,Diabetes,37.5,16,95.6,1,0,1,1,0,9.8,11.3,0.31,0
+P1279,59,Female,Viral,Severe,None,38.7,21,87.3,1,1,1,0,1,13.7,85.8,0.42,0
+P1280,66,Male,Bacterial,Mild,COPD,37.6,16,94.6,1,1,0,1,1,8.9,8.0,0.36,0
+P1281,74,Female,Aspiration,Critical,Hypertension,38.6,27,77.9,1,1,1,1,1,19.5,205.5,1.06,0
+P1282,88,Male,Bacterial,Severe,Hypertension,38.6,23,86.5,1,1,1,1,1,14.3,82.6,5.15,1
+P1283,46,Female,Viral,Severe,Asthma,38.7,23,88.8,1,1,1,1,1,12.0,84.5,0.37,0
+P1284,95,Female,Aspiration,Moderate,Hypertension,38.2,16,93.1,1,1,0,1,1,9.9,27.1,0.13,0
+P1285,35,Female,Fungal,Severe,Diabetes,38.8,19,86.5,1,1,1,1,1,14.9,86.6,0.44,1
+P1286,62,Male,Fungal,Mild,Diabetes,37.8,12,95.7,1,0,1,1,1,8.9,10.0,0.21,0
+P1287,73,Male,Aspiration,Moderate,Asthma,38.1,19,92.2,0,0,1,1,1,10.5,23.1,0.33,0
+P1288,69,Female,Aspiration,Severe,Asthma,38.5,19,88.3,0,0,0,1,1,12.6,86.3,0.34,0
+P1289,55,Female,Aspiration,Severe,COPD,38.0,17,89.3,1,1,1,0,1,12.9,85.0,0.43,0
+P1290,61,Male,Viral,Critical,Asthma,39.1,28,76.1,1,1,1,1,1,17.0,200.4,1.08,0
+P1291,57,Male,Aspiration,Moderate,None,38.1,22,93.1,1,1,1,1,1,10.9,26.6,0.24,0
+P1292,56,Female,Viral,Mild,None,37.6,15,95.8,1,0,1,1,0,8.4,10.0,0.08,0
+P1293,77,Male,Aspiration,Severe,None,38.1,23,88.7,1,1,1,1,0,13.0,87.4,0.34,0
+P1294,70,Female,Viral,Critical,Diabetes,38.7,28,78.2,1,1,1,1,1,18.9,202.8,1.06,0
+P1295,54,Male,Viral,Severe,Heart Disease,38.8,21,87.2,0,1,1,1,1,14.4,78.6,0.4,0
+P1296,78,Female,Bacterial,Moderate,Hypertension,38.0,19,92.7,1,1,1,1,1,13.1,25.6,0.57,0
+P1297,69,Female,Fungal,Mild,COPD,37.7,15,95.2,1,0,0,1,1,7.5,10.6,0.18,0
+P1298,77,Male,Aspiration,Critical,Asthma,39.0,28,79.1,1,1,0,1,0,20.2,201.6,1.15,0
+P1299,74,Male,Fungal,Severe,COPD,38.5,22,88.0,1,1,1,1,1,15.0,83.0,0.43,0
+P1300,52,Male,Fungal,Mild,Diabetes,37.8,14,97.9,1,1,0,0,0,8.2,15.5,0.23,0
+P1301,56,Male,Bacterial,Severe,Asthma,38.3,23,87.9,1,1,1,1,1,14.2,84.4,5.12,0
+P1302,76,Male,Fungal,Severe,Asthma,38.5,21,87.3,1,1,1,1,0,13.5,86.5,0.34,0
+P1303,74,Female,Fungal,Moderate,Diabetes,37.9,16,91.5,1,1,1,1,1,11.2,23.7,0.27,1
+P1304,64,Male,Aspiration,Moderate,Hypertension,37.9,19,91.2,1,0,1,1,0,12.5,20.8,0.17,0
+P1305,66,Female,Viral,Severe,Asthma,38.4,20,86.4,1,1,0,0,1,14.6,84.7,0.45,1
+P1306,84,Male,Aspiration,Critical,Hypertension,39.1,28,78.3,1,1,1,1,1,19.5,204.5,1.18,1
+P1307,56,Male,Aspiration,Moderate,Diabetes,37.9,17,93.5,1,1,1,1,1,10.6,24.2,0.22,0
+P1308,73,Female,Fungal,Moderate,COPD,38.4,20,91.4,1,1,1,1,1,9.5,24.8,0.13,0
+P1309,61,Female,Fungal,Moderate,Asthma,37.7,18,93.9,1,1,1,1,0,10.8,25.5,0.15,0
+P1310,61,Male,Aspiration,Moderate,Heart Disease,37.9,17,92.5,1,0,1,1,0,12.2,24.7,0.27,0
+P1311,81,Female,Aspiration,Mild,Hypertension,37.4,17,96.1,1,0,0,1,0,7.5,7.5,0.14,0
+P1312,77,Male,Fungal,Severe,Asthma,38.9,24,89.6,1,1,1,1,1,12.9,86.0,0.4,0
+P1313,77,Male,Viral,Mild,Hypertension,37.6,17,96.9,1,1,0,1,0,9.1,6.1,0.19,0
+P1314,84,Male,Viral,Mild,Asthma,37.8,16,95.7,0,0,1,0,1,8.0,5.9,0.18,0
+P1315,65,Female,Aspiration,Severe,Asthma,38.1,19,87.1,1,1,1,1,1,13.2,86.5,0.41,0
+P1316,75,Female,Viral,Moderate,Asthma,38.1,15,90.8,1,0,1,1,1,10.6,26.0,0.19,0
+P1317,60,Male,Aspiration,Critical,COPD,39.3,27,77.3,1,1,1,1,1,17.6,204.9,1.08,1
+P1318,69,Male,Bacterial,Moderate,Heart Disease,38.0,16,92.8,1,1,1,1,1,10.0,22.2,0.64,0
+P1319,63,Male,Fungal,Moderate,Asthma,38.3,17,92.0,1,1,1,1,1,11.7,23.6,0.23,0
+P1320,66,Male,Aspiration,Moderate,Hypertension,37.8,18,92.9,1,1,1,1,1,9.7,24.5,0.19,0
+P1321,73,Female,Aspiration,Moderate,COPD,38.4,19,93.1,1,1,1,1,0,9.4,21.8,0.25,0
+P1322,52,Male,Aspiration,Critical,None,39.7,27,77.8,1,1,1,1,1,18.4,203.5,1.09,1
+P1323,95,Male,Viral,Mild,Hypertension,37.4,16,95.3,0,0,1,1,1,9.7,11.3,0.11,0
+P1324,49,Female,Aspiration,Critical,Hypertension,38.9,28,78.2,1,1,1,1,1,18.8,207.9,1.06,1
+P1325,46,Female,Bacterial,Severe,Heart Disease,38.9,18,88.4,1,1,1,1,1,13.5,84.2,5.05,0
+P1326,82,Male,Viral,Moderate,None,38.5,16,91.9,1,0,1,1,1,11.0,26.5,0.19,0
+P1327,76,Female,Fungal,Critical,COPD,38.8,27,79.4,1,1,1,1,1,17.3,201.2,1.16,1
+P1328,74,Male,Bacterial,Severe,Asthma,38.4,19,87.9,1,1,1,1,1,14.5,86.3,5.06,0
+P1329,74,Male,Aspiration,Critical,Hypertension,38.9,29,78.0,1,1,1,1,1,19.4,203.4,1.11,0
+P1330,64,Female,Bacterial,Moderate,Heart Disease,37.6,21,93.7,1,1,1,1,1,10.6,25.6,0.57,0
+P1331,51,Male,Aspiration,Moderate,Heart Disease,37.7,20,93.2,1,1,1,1,0,12.0,24.5,0.19,0
+P1332,66,Female,Bacterial,Severe,Heart Disease,38.2,21,89.0,1,1,1,1,1,12.9,87.6,5.02,1
+P1333,54,Male,Viral,Critical,None,38.8,30,78.3,1,1,1,1,1,20.1,203.3,1.09,0
+P1334,79,Male,Aspiration,Moderate,Asthma,38.0,18,92.4,1,1,0,1,0,11.2,26.3,0.19,0
+P1335,62,Female,Viral,Severe,COPD,38.6,21,88.4,1,1,1,1,1,13.7,84.4,0.43,0
+P1336,52,Female,Bacterial,Critical,Hypertension,39.5,26,76.9,1,1,1,1,1,19.0,204.7,20.11,1
+P1337,60,Female,Aspiration,Critical,Heart Disease,38.7,27,78.1,1,1,1,1,1,18.9,204.6,1.04,0
+P1338,71,Male,Fungal,Severe,Asthma,38.8,21,88.0,1,1,0,0,1,15.2,83.3,0.45,0
+P1339,56,Male,Fungal,Critical,Asthma,38.9,28,77.8,1,1,1,1,1,17.9,205.0,1.11,0
+P1340,52,Male,Aspiration,Critical,Diabetes,39.0,28,77.9,1,1,1,1,1,18.2,204.9,1.11,1
+P1341,68,Male,Bacterial,Moderate,Heart Disease,38.2,18,91.1,1,1,1,1,1,12.0,25.5,0.6,0
+P1342,68,Female,Fungal,Moderate,None,37.7,18,92.5,1,1,1,1,1,10.4,25.2,0.17,0
+P1343,57,Female,Aspiration,Moderate,Asthma,38.1,20,93.1,1,0,1,1,1,11.9,26.6,0.21,0
+P1344,57,Female,Fungal,Severe,COPD,38.5,23,88.2,1,1,1,1,1,15.7,86.8,0.42,1
+P1345,68,Male,Aspiration,Mild,Diabetes,37.6,13,95.0,1,1,1,1,1,8.6,7.9,0.06,0
+P1346,43,Female,Bacterial,Critical,Asthma,39.1,22,79.3,1,1,1,1,1,19.7,206.7,20.07,0
+P1347,43,Female,Bacterial,Severe,Heart Disease,39.2,23,87.1,1,0,1,1,1,12.8,82.6,5.09,0
+P1348,54,Female,Viral,Mild,Heart Disease,37.3,13,97.0,1,0,1,1,1,9.8,11.2,0.16,0
+P1349,61,Female,Fungal,Mild,Asthma,37.3,15,96.4,1,0,0,1,1,9.2,11.2,0.21,0
+P1350,69,Male,Viral,Severe,COPD,38.3,19,87.4,1,1,1,1,1,14.5,81.2,0.36,0
+P1351,87,Male,Bacterial,Mild,Diabetes,37.3,12,97.8,1,0,0,1,0,8.4,10.2,0.28,0
+P1352,77,Female,Aspiration,Moderate,Heart Disease,37.8,19,91.8,1,1,1,1,1,9.3,24.1,0.17,0
+P1353,62,Male,Bacterial,Severe,Diabetes,38.9,23,88.9,1,1,1,1,1,14.5,83.5,5.06,0
+P1354,64,Female,Bacterial,Critical,None,39.4,26,79.0,1,0,1,1,1,16.9,207.7,20.08,1
+P1355,49,Male,Aspiration,Moderate,Asthma,37.8,12,92.3,1,1,1,1,1,10.7,23.7,0.24,0
+P1356,64,Male,Viral,Critical,Heart Disease,38.8,26,79.4,1,1,1,0,0,19.9,203.4,1.05,1
+P1357,60,Female,Fungal,Mild,None,37.6,16,95.7,1,0,1,1,1,9.2,10.2,0.17,0
+P1358,69,Female,Bacterial,Moderate,Diabetes,37.8,15,93.3,0,0,1,0,0,12.9,26.4,0.51,0
+P1359,52,Female,Bacterial,Critical,None,39.2,28,78.3,1,0,1,1,1,20.0,204.7,20.07,0
+P1360,72,Female,Fungal,Severe,COPD,38.6,21,87.9,1,1,1,1,1,13.3,87.3,0.38,0
+P1361,87,Male,Bacterial,Mild,Hypertension,37.0,17,96.8,1,1,1,1,1,9.0,11.1,0.38,0
+P1362,63,Female,Fungal,Critical,COPD,39.5,28,78.8,1,1,1,1,1,19.0,200.6,1.09,0
+P1363,71,Male,Fungal,Mild,Diabetes,38.0,14,94.3,1,1,1,1,1,7.4,8.9,0.04,0
+P1364,75,Female,Fungal,Critical,COPD,38.8,30,79.3,1,1,1,1,1,18.1,203.9,1.0,1
+P1365,58,Male,Aspiration,Severe,Heart Disease,38.4,21,86.3,0,1,0,1,1,13.4,86.0,0.4,0
+P1366,68,Female,Viral,Moderate,Diabetes,38.1,17,94.0,1,0,0,1,1,9.0,19.8,0.23,0
+P1367,65,Male,Viral,Critical,COPD,39.1,26,79.1,1,1,1,1,0,19.0,210.1,1.12,0
+P1368,66,Male,Aspiration,Mild,Asthma,37.7,15,94.9,1,1,0,1,1,8.8,11.1,0.16,0
+P1369,53,Female,Viral,Severe,Asthma,39.1,20,87.6,1,1,1,1,1,12.3,85.3,0.46,0
+P1370,65,Female,Viral,Moderate,COPD,37.9,17,91.9,1,1,1,1,0,11.4,27.4,0.17,0
+P1371,72,Male,Viral,Mild,Heart Disease,37.3,19,95.8,1,1,0,1,1,9.7,14.7,0.19,0
+P1372,86,Female,Bacterial,Severe,Heart Disease,38.1,19,87.7,1,1,0,1,0,14.2,86.7,5.02,0
+P1373,79,Female,Aspiration,Mild,None,37.3,12,96.8,1,0,1,0,0,8.7,11.9,0.1,0
+P1374,95,Male,Viral,Severe,Heart Disease,38.5,24,89.3,1,1,1,1,1,14.6,85.3,0.31,0
+P1375,53,Female,Aspiration,Moderate,Diabetes,38.5,17,94.4,1,1,1,1,0,11.7,24.7,0.19,0
+P1376,78,Female,Viral,Moderate,Asthma,37.8,16,92.4,1,0,0,1,1,11.3,24.0,0.2,1
+P1377,67,Female,Viral,Mild,Diabetes,37.6,18,95.8,0,0,1,1,1,8.2,8.3,0.16,0
+P1378,95,Female,Aspiration,Severe,Asthma,38.5,20,86.3,1,1,1,1,1,14.3,83.6,0.4,0
+P1379,52,Female,Fungal,Critical,Hypertension,39.4,31,77.2,0,1,1,1,1,20.2,202.3,1.05,0
+P1380,52,Female,Aspiration,Moderate,Heart Disease,38.8,19,94.0,1,0,1,1,0,10.4,24.8,0.19,0
+P1381,56,Male,Fungal,Critical,COPD,38.8,27,79.6,1,1,1,1,0,21.1,201.6,1.03,0
+P1382,33,Male,Bacterial,Critical,Asthma,38.9,32,76.8,1,1,1,1,1,18.5,205.4,20.17,0
+P1383,57,Female,Aspiration,Mild,COPD,37.8,14,95.4,1,0,1,1,1,9.0,9.9,0.13,0
+P1384,53,Female,Fungal,Mild,Hypertension,37.7,17,96.0,1,0,0,1,0,8.3,10.3,0.13,0
+P1385,67,Male,Viral,Mild,Diabetes,38.1,16,96.3,1,0,1,0,1,9.2,9.0,0.23,0
+P1386,70,Female,Bacterial,Severe,COPD,38.7,24,87.2,1,1,1,1,1,12.3,91.2,5.04,0
+P1387,93,Female,Aspiration,Moderate,Asthma,37.9,21,93.4,1,1,1,1,1,10.5,27.7,0.14,0
+P1388,79,Male,Fungal,Moderate,Hypertension,38.2,18,92.5,1,1,1,1,0,9.9,22.5,0.15,0
+P1389,56,Female,Fungal,Critical,Asthma,39.3,26,78.0,1,1,1,1,1,19.1,205.5,1.1,0
+P1390,51,Female,Aspiration,Mild,Hypertension,37.7,16,96.5,0,0,1,0,0,10.0,8.8,0.17,0
+P1391,72,Male,Fungal,Severe,Heart Disease,38.7,20,88.0,1,0,1,1,0,14.6,83.0,0.44,1
+P1392,45,Female,Aspiration,Moderate,Heart Disease,38.3,22,92.6,1,1,1,0,1,8.6,22.3,0.33,0
+P1393,92,Female,Fungal,Severe,Heart Disease,38.9,22,87.9,1,1,1,1,1,16.0,85.9,0.29,0
+P1394,82,Female,Viral,Mild,Heart Disease,37.9,15,95.9,1,1,1,1,0,9.3,8.6,0.18,0
+P1395,57,Female,Aspiration,Mild,Heart Disease,37.7,16,95.6,1,0,1,1,1,8.2,11.9,0.12,0
+P1396,39,Female,Aspiration,Moderate,Hypertension,37.9,15,92.7,1,0,1,1,0,11.2,27.0,0.17,0
+P1397,85,Male,Bacterial,Critical,Asthma,39.0,26,79.6,1,1,1,0,0,19.2,207.7,20.07,0
+P1398,63,Female,Viral,Critical,COPD,39.4,30,78.6,1,1,1,1,1,18.3,203.3,1.05,1
+P1399,83,Male,Aspiration,Mild,Diabetes,37.3,14,95.7,1,0,0,0,0,9.2,11.0,0.23,0
+P1400,41,Male,Fungal,Mild,Diabetes,37.6,13,96.7,1,0,1,1,0,8.4,11.3,0.19,0
+P1401,56,Female,Fungal,Critical,Hypertension,38.9,29,77.7,1,1,1,1,1,18.6,204.1,1.1,0
+P1402,65,Female,Fungal,Mild,Asthma,37.5,18,97.2,0,0,1,1,1,8.3,8.5,0.22,0
+P1403,65,Male,Bacterial,Moderate,Hypertension,38.4,19,93.4,1,1,0,1,1,9.6,28.2,0.52,0
+P1404,58,Male,Aspiration,Moderate,Diabetes,38.1,19,92.9,1,1,0,0,1,11.1,25.5,0.13,0
+P1405,74,Female,Fungal,Severe,Hypertension,38.5,20,88.4,1,1,1,1,1,14.6,86.3,0.29,0
+P1406,48,Male,Bacterial,Critical,Hypertension,38.6,25,76.4,1,1,1,1,1,19.5,203.4,20.07,0
+P1407,62,Male,Bacterial,Mild,Heart Disease,37.7,19,94.9,1,1,0,1,0,9.8,7.6,0.31,0
+P1408,66,Male,Aspiration,Severe,Diabetes,38.7,21,86.8,1,1,0,1,1,14.3,83.9,0.41,0
+P1409,72,Male,Fungal,Moderate,Heart Disease,38.6,17,93.1,1,1,1,1,1,10.5,24.8,0.21,0
+P1410,75,Male,Viral,Critical,Heart Disease,38.9,30,79.7,1,1,1,1,1,19.8,202.9,1.03,0
+P1411,48,Male,Fungal,Moderate,COPD,38.1,19,95.2,1,1,1,1,0,9.6,25.0,0.24,0
+P1412,41,Female,Viral,Mild,Hypertension,37.6,16,96.6,1,1,1,1,1,8.1,6.6,0.16,0
+P1413,84,Male,Viral,Severe,COPD,39.0,26,88.5,1,1,1,1,1,13.0,82.8,0.44,0
+P1414,69,Female,Fungal,Mild,Hypertension,37.5,14,94.2,1,0,1,0,1,10.1,11.3,0.06,0
+P1415,53,Female,Viral,Mild,Asthma,37.6,17,95.5,0,0,1,1,0,9.9,11.2,0.17,0
+P1416,88,Male,Bacterial,Critical,Heart Disease,39.2,28,77.2,1,1,1,1,1,19.5,204.2,20.04,0
+P1417,66,Female,Bacterial,Critical,Hypertension,39.1,28,77.4,1,1,1,1,1,20.1,203.0,20.08,0
+P1418,82,Female,Fungal,Mild,Hypertension,37.4,19,95.8,1,0,1,1,0,8.1,7.9,0.18,0
+P1419,66,Female,Aspiration,Critical,None,39.1,29,77.5,1,1,1,1,1,19.3,204.3,1.1,1
+P1420,95,Male,Bacterial,Severe,Asthma,38.8,23,86.0,1,1,1,0,0,13.9,86.3,5.06,0
+P1421,91,Male,Fungal,Severe,Heart Disease,38.2,24,88.7,1,1,1,1,1,14.8,86.9,0.4,0
+P1422,61,Male,Viral,Mild,Asthma,37.5,15,94.9,1,1,0,0,1,8.9,9.0,0.07,0
+P1423,79,Male,Bacterial,Severe,COPD,38.3,20,88.2,1,1,1,0,0,13.6,82.7,5.16,0
+P1424,74,Female,Fungal,Mild,COPD,37.9,13,98.1,1,0,1,1,1,9.5,10.5,0.14,0
+P1425,85,Male,Fungal,Severe,Hypertension,38.0,18,87.1,1,1,1,1,1,14.9,83.4,0.46,0
+P1426,50,Male,Aspiration,Moderate,Diabetes,37.8,22,90.5,1,0,1,1,1,10.3,24.0,0.17,0
+P1427,75,Female,Viral,Mild,Hypertension,37.6,13,95.7,1,0,0,1,1,8.9,12.7,0.12,0
+P1428,80,Male,Viral,Severe,None,39.0,21,89.1,1,0,1,1,1,12.9,86.7,0.36,0
+P1429,38,Male,Viral,Moderate,Hypertension,38.0,17,95.0,1,1,1,1,1,8.5,25.3,0.24,0
+P1430,47,Male,Fungal,Mild,Heart Disease,37.3,16,94.8,1,0,1,1,1,9.2,7.5,0.11,0
+P1431,34,Female,Fungal,Severe,None,39.1,23,88.5,0,1,1,1,1,14.6,85.4,0.43,1
+P1432,60,Male,Viral,Severe,Hypertension,38.1,23,87.5,1,1,1,1,0,14.3,87.1,0.38,0
+P1433,75,Female,Fungal,Moderate,COPD,37.3,16,92.9,1,1,0,1,1,9.1,24.2,0.1,0
+P1434,87,Female,Aspiration,Critical,Heart Disease,39.1,27,80.6,1,1,1,1,1,18.6,207.7,1.07,1
+P1435,66,Female,Fungal,Critical,Hypertension,38.8,28,76.5,1,1,1,1,1,16.8,207.6,1.04,1
+P1436,89,Female,Fungal,Moderate,Heart Disease,37.7,17,93.3,1,1,0,1,1,12.4,28.3,0.2,0
+P1437,44,Female,Bacterial,Moderate,COPD,38.2,21,93.5,0,1,0,1,1,9.9,25.6,0.54,0
+P1438,39,Male,Aspiration,Mild,Diabetes,37.6,16,97.1,1,1,1,1,0,10.3,11.2,0.2,0
+P1439,64,Female,Bacterial,Critical,Diabetes,38.8,29,78.1,1,1,1,1,1,19.9,207.8,20.1,1
+P1440,70,Female,Viral,Mild,Asthma,37.1,17,96.3,1,1,1,0,0,8.1,10.9,0.14,0
+P1441,64,Female,Viral,Severe,Hypertension,38.8,24,87.6,1,1,1,1,1,12.9,84.0,0.43,0
+P1442,33,Male,Aspiration,Moderate,Asthma,38.2,18,93.3,1,1,1,1,0,11.4,24.1,0.25,0
+P1443,63,Female,Fungal,Mild,Heart Disease,37.5,13,95.7,0,0,1,1,1,8.2,10.5,0.15,0
+P1444,45,Female,Bacterial,Moderate,Hypertension,38.6,18,93.6,1,0,1,1,1,11.1,22.4,0.56,0
+P1445,75,Male,Aspiration,Mild,Diabetes,37.2,14,95.6,1,0,1,0,0,8.5,9.7,0.06,0
+P1446,70,Female,Bacterial,Severe,None,38.0,20,88.4,1,1,1,1,1,12.2,87.2,5.07,0
+P1447,50,Female,Fungal,Severe,Asthma,38.3,23,88.0,1,1,1,1,0,11.8,80.6,0.37,0
+P1448,57,Male,Bacterial,Critical,Heart Disease,39.0,30,79.1,1,1,1,1,1,19.2,208.1,20.11,1
+P1449,49,Female,Aspiration,Critical,Asthma,39.1,28,77.9,1,1,1,1,1,18.4,207.2,1.08,0
+P1450,64,Male,Fungal,Severe,Diabetes,38.4,22,86.2,1,1,1,1,0,13.4,84.1,0.43,0
+P1451,79,Female,Fungal,Mild,Diabetes,37.6,19,97.3,0,0,1,1,1,9.7,11.1,0.12,0
+P1452,50,Female,Aspiration,Moderate,None,37.6,18,92.1,1,1,1,1,1,12.2,25.0,0.2,0
+P1453,72,Female,Fungal,Severe,Heart Disease,38.9,27,87.3,1,1,1,1,1,13.7,87.5,0.46,0
+P1454,57,Male,Bacterial,Severe,Asthma,38.5,23,87.4,1,0,1,1,0,13.7,87.0,5.12,0
+P1455,53,Male,Viral,Mild,Diabetes,37.8,12,97.4,1,1,1,1,1,9.5,7.2,0.15,0
+P1456,63,Male,Aspiration,Severe,Heart Disease,38.6,23,85.9,1,1,1,1,0,12.6,86.2,0.37,0
+P1457,49,Male,Bacterial,Severe,Diabetes,38.6,22,91.1,1,1,1,1,1,14.2,84.6,5.07,0
+P1458,56,Female,Fungal,Mild,None,37.7,18,97.1,0,0,1,0,0,9.6,10.2,0.11,0
+P1459,47,Male,Viral,Severe,None,38.6,23,88.2,1,1,1,1,0,14.7,83.5,0.37,0
+P1460,94,Male,Bacterial,Critical,COPD,39.2,27,77.9,1,1,1,1,1,17.1,208.5,20.14,1
+P1461,65,Male,Aspiration,Critical,Hypertension,39.4,25,78.3,1,1,1,1,1,18.2,207.1,1.09,0
+P1462,54,Female,Fungal,Critical,Heart Disease,39.1,27,78.5,1,1,1,1,1,18.1,203.5,1.03,0
+P1463,68,Female,Aspiration,Critical,COPD,39.2,26,78.6,1,1,1,1,1,19.1,202.3,1.19,0
+P1464,63,Female,Bacterial,Severe,None,38.5,20,88.6,1,0,1,1,1,14.5,84.2,5.12,0
+P1465,61,Female,Viral,Moderate,Heart Disease,38.4,19,93.1,1,0,1,1,1,12.5,25.9,0.13,0
+P1466,74,Female,Bacterial,Critical,Diabetes,38.8,31,77.8,1,1,1,1,1,18.5,205.5,20.08,1
+P1467,76,Male,Bacterial,Critical,None,39.5,28,77.8,1,1,1,1,1,18.5,207.5,20.11,0
+P1468,57,Male,Fungal,Severe,Asthma,38.5,19,87.8,1,1,1,1,1,15.1,86.6,0.49,0
+P1469,56,Female,Aspiration,Severe,Diabetes,38.1,22,89.1,1,1,1,1,1,14.3,86.9,0.34,0
+P1470,60,Female,Bacterial,Mild,COPD,37.5,18,96.6,1,1,1,1,1,10.3,10.7,0.35,0
+P1471,30,Male,Bacterial,Critical,Heart Disease,38.8,26,75.1,1,1,1,1,1,19.3,202.2,20.17,0
+P1472,42,Female,Viral,Mild,COPD,37.8,15,96.7,1,1,1,0,0,7.8,9.6,0.12,0
+P1473,85,Female,Viral,Critical,COPD,38.8,28,78.2,1,1,1,1,1,17.7,207.1,1.09,1
+P1474,89,Male,Aspiration,Moderate,Heart Disease,37.9,16,93.0,1,1,1,0,0,9.4,24.9,0.15,1
+P1475,61,Female,Aspiration,Severe,Diabetes,37.9,23,87.6,1,1,1,1,1,14.7,86.0,0.39,0
+P1476,73,Female,Fungal,Severe,Hypertension,38.4,21,89.1,1,1,1,1,0,15.2,84.4,0.4,0
+P1477,69,Female,Aspiration,Mild,Hypertension,36.8,16,96.9,1,1,0,1,1,10.8,7.9,0.18,0
+P1478,95,Female,Viral,Mild,Hypertension,37.0,14,95.2,0,0,1,0,1,9.8,9.8,0.2,0
+P1479,81,Male,Aspiration,Severe,Heart Disease,38.7,21,88.4,1,1,1,0,1,15.2,85.6,0.36,1
+P1480,63,Female,Bacterial,Severe,None,38.7,23,87.0,1,0,1,1,1,13.4,83.7,5.0,0
+P1481,50,Male,Aspiration,Severe,None,38.6,21,86.6,1,1,1,1,1,12.8,84.5,0.4,1
+P1482,40,Female,Aspiration,Critical,Heart Disease,38.7,31,77.4,1,1,1,1,1,19.9,203.1,1.11,1
+P1483,68,Female,Fungal,Critical,Asthma,39.0,27,78.9,1,1,1,1,1,19.4,207.2,1.11,0
+P1484,53,Female,Bacterial,Moderate,Diabetes,38.0,18,94.0,1,1,1,1,1,11.1,24.4,0.58,0
+P1485,43,Male,Fungal,Critical,Asthma,38.7,29,78.5,1,1,0,1,1,19.4,207.9,1.11,0
+P1486,55,Female,Viral,Severe,Heart Disease,39.0,19,88.7,1,1,1,1,1,14.3,88.1,0.48,0
+P1487,48,Female,Aspiration,Critical,Heart Disease,39.3,24,78.5,1,1,0,1,1,20.3,204.8,1.12,1
+P1488,90,Female,Aspiration,Mild,None,37.4,12,95.4,1,1,0,1,0,10.3,8.0,0.13,0
+P1489,78,Male,Viral,Severe,Diabetes,38.5,24,88.4,0,1,1,1,0,14.5,80.8,0.37,1
+P1490,64,Female,Fungal,Critical,COPD,39.1,26,78.8,1,1,1,1,1,19.8,202.1,1.09,0
+P1491,87,Male,Bacterial,Severe,Diabetes,37.9,27,88.8,1,1,1,1,0,14.5,82.3,5.18,0
+P1492,66,Male,Fungal,Mild,None,37.4,14,97.2,1,1,0,1,0,8.5,12.8,0.14,0
+P1493,52,Female,Fungal,Mild,COPD,37.3,16,96.7,0,0,1,1,1,9.8,10.2,0.15,0
+P1494,87,Male,Bacterial,Critical,COPD,38.7,31,78.4,1,1,1,1,1,17.6,205.8,20.08,0
+P1495,73,Male,Aspiration,Severe,Diabetes,38.4,26,89.1,1,1,1,1,1,15.1,80.6,0.45,0
+P1496,49,Female,Fungal,Moderate,Heart Disease,38.5,22,93.0,1,0,1,1,1,9.8,22.6,0.3,0
+P1497,62,Male,Viral,Mild,Hypertension,37.7,18,95.1,1,1,1,0,0,9.3,11.8,0.17,0
+P1498,51,Female,Bacterial,Moderate,None,37.8,20,92.8,1,1,1,1,1,10.2,25.6,0.6,0
+P1499,44,Male,Aspiration,Critical,None,39.2,29,77.3,1,1,1,1,1,19.6,204.7,1.1,1
