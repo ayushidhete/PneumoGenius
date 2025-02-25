@@ -2,6 +2,9 @@
 
 A comprehensive machine learning solution that predicts pneumonia type , then generates detailed diagnosis reports using LLM integration.
 
+## Deployed Link:
+https://pneumogenius.streamlit.app/
+
 ## Project Overview
 
 This project develops a two-stage predictive system for pneumonia patients:
