@@ -13,7 +13,7 @@ load_dotenv()
 
 st.set_page_config(page_title="PneumoGenius", page_icon="🩺", layout="wide")
 
-model = joblib.load("model/pred_model.pkl")
+model = joblib.load("pred_model.pkl")
 # with open("model/pred_model.pkl", "rb") as f:
 #     model = pl.load(f)
 
